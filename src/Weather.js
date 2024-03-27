@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { TailSpin } from "react-loader-spinner";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
