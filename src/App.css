@@ -1,1 +1,29 @@
+.App {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
 
+.header {
+  color: var(--primary-color);
+  font-family: "Marcellus", serif;
+  font-size: 46px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App footer {
+  color: var(--primary-color);
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+.App a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 110ms ease-in-out;
+}
+
+.App a:hover {
+  color: var(--secondary-color);
+}

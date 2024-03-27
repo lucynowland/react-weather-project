@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         {" "}
-        <h1>React Weather App</h1>
+        <h1 className="header">React Weather App</h1>
         <Weather />
-        <p>
+        <footer>
           This project was coded by{" "}
           <a
             href="https://github.com/lucynowland"
@@ -33,7 +33,7 @@ export default function App() {
           >
             Netlify
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );

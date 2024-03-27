@@ -1,3 +1,69 @@
+:root {
+  --primary-color: #eeedbe;
+  --secondary-color: #734444;
+}
+
+body {
+  background-color: #99b27f;
+}
+
 .Weather {
+  background-color: var(--secondary-color);
   border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 25px auto;
+}
+
+.Weather form {
+  margin-bottom: 18px;
+}
+
+.Weather .btn-style {
+  background-color: #99b27f;
+  border: 1px solid var(--primary-color);
+  color: white;
+}
+
+.Weather h1 {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-family: "Marcellus", serif;
+  margin: 20px 0 0 0;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  list-style: none;
+}
+
+.Weather img {
+  margin-right: 10px;
+  width: 64px;
+}
+
+.Weather .temperature {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.Weather .unit {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  margin-left: 2px;
+  position: relative;
+  top: -18px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import Sunny from "./images/sunny-icon.png";
 
 export default function Weather() {
   return (
@@ -12,13 +13,14 @@ export default function Weather() {
               type="search"
               placeholder="Enter a City..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
             <input
               type="submit"
               value="Search"
-              className="form-control btn btn-danger"
+              className="form-control btn btn-style w-100"
             />
           </div>
         </div>
@@ -28,14 +30,11 @@ export default function Weather() {
         <li>Wednesday 11:30</li>
         <li>Sunny</li>
       </ul>
-      <div className="row">
+      <div className="row mt-1">
         <div className="col-6">
-          <img
-            src="https://as1.ftcdn.net/v2/jpg/00/55/12/64/1000_F_55126421_UkxlTpL0Ost5O0UG1uYfPSY67yXvlpb6.jpg"
-            alt="Sunny"
-            width={80}
-          />
-          25°C
+          <img src={Sunny} alt="Sunny" className="float-left" />
+          <span className="temperature">25</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
