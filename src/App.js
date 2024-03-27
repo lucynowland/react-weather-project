@@ -1,4 +1,5 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
@@ -6,6 +7,7 @@ export default function App() {
       <div className="container">
         {" "}
         <h1>React Weather App</h1>
+        <Weather />
         <p>
           This project was coded by{" "}
           <a
