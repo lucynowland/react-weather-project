@@ -9,7 +9,7 @@ body {
 
 .Weather {
   background-color: var(--secondary-color);
-  border: 1px solid black;
+  border: 0.5px solid var(--primary-color);
   border-radius: 5px;
   padding: 20px;
   margin: 25px auto;
@@ -35,6 +35,7 @@ body {
 .Weather ul {
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
 }
 
 .Weather li {
@@ -46,8 +47,7 @@ body {
 }
 
 .Weather img {
-  margin-right: 3px;
-  width: 70px;
+  width: 64px;
 }
 
 .Weather .temperature {
@@ -55,9 +55,10 @@ body {
   font-size: 40px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
+  margin-left: 8px;
   line-height: 50px;
   position: relative;
-  top: 10px;
+  top: -15px;
 }
 
 .Weather .unit {
@@ -66,7 +67,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 200;
   position: relative;
-  top: -10px;
+  top: -35px;
 }
 
 .Weather .loader img,
