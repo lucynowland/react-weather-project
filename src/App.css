@@ -21,9 +21,12 @@
 .App a {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+a.footerLink {
   transition: all 110ms ease-in-out;
 }
 
-.App a:hover {
+a:hover.footerLink {
   color: var(--secondary-color);
 }

@@ -14,6 +14,7 @@ export default function App() {
             href="https://github.com/lucynowland"
             target="_blank"
             rel="noreferrer"
+            className="footerLink"
           >
             Lucy Nowland
           </a>{" "}
@@ -22,6 +23,7 @@ export default function App() {
             href="https://github.com/lucynowland/react-weather-project"
             target="_blank"
             rel="noreferrer"
+            className="footerLink"
           >
             GitHub
           </a>{" "}
@@ -30,6 +32,7 @@ export default function App() {
             href="https://weather-application-react-project.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            className="footerLink"
           >
             Netlify
           </a>
