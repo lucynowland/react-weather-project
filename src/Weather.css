@@ -46,8 +46,8 @@ body {
 }
 
 .Weather img {
-  margin-right: 7px;
-  width: 64px;
+  margin-right: 3px;
+  width: 70px;
 }
 
 .Weather .temperature {
@@ -55,7 +55,9 @@ body {
   font-size: 40px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 50px;
+  position: relative;
+  top: 10px;
 }
 
 .Weather .unit {
@@ -63,9 +65,8 @@ body {
   font-size: 16px;
   font-family: "Manrope", sans-serif;
   font-weight: 200;
-  margin-left: 2px;
   position: relative;
-  top: -18px;
+  top: -10px;
 }
 
 .Weather .loader img,
