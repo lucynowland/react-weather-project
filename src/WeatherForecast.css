@@ -1,0 +1,24 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.ForecastDay {
+  color: #eeedbe;
+  font-family: "Marcellus", serif;
+  margin-bottom: 5px;
+}
+
+.ForecastTemps-min {
+  color: #eeedbe;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.ForecastTemps-max {
+  color: #eeedbe;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  margin-right: -4px;
+  margin-left: 1px;
+}
